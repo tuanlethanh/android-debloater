@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "description": "Android / Xiaomi package database for safe debloat",
+  "last_updated": "2026-01-19",
+  "groups": [
+    {
+      "group": "google_core",
+      "vendor": "Google",
+      "packages": [
+        {
+          "package_name": "com.google.android.gms",
+          "app_name": "Google Play Services",
+          "description": "Dịch vụ lõi cho hệ sinh thái Google",
+          "safe_to_remove": false,
+          "risk_level": "HIGH",
+          "battery_impact": "HIGH",
+          "ram_impact": "HIGH",
+          "reversible": false,
+          "notes": "Không được gỡ"
+        },
+        {
+          "package_name": "com.google.android.gsf",
+          "app_name": "Google Services Framework",
+          "description": "Xác thực và đồng bộ Google",
+          "safe_to_remove": false,
+          "risk_level": "HIGH",
+          "battery_impact": "MEDIUM",
+          "ram_impact": "MEDIUM",
+          "reversible": false,
+          "notes": "Bắt buộc"
+        },
+        {
+          "package_name": "com.android.vending",
+          "app_name": "Google Play Store",
+          "description": "Cửa hàng ứng dụng Google",
+          "safe_to_remove": false,
+          "risk_level": "HIGH",
+          "battery_impact": "MEDIUM",
+          "ram_impact": "MEDIUM",
+          "reversible": false,
+          "notes": "Phải giữ"
+        },
+        {
+          "package_name": "com.google.android.youtube",
+          "app_name": "YouTube",
+          "description": "Ứng dụng YouTube",
+          "safe_to_remove": false,
+          "risk_level": "HIGH",
+          "battery_impact": "MEDIUM",
+          "ram_impact": "MEDIUM",
+          "reversible": true,
+          "notes": "Giữ theo yêu cầu"
+        }
+      ]
+    },
+    {
+      "group": "google_app",
+      "vendor": "Google",
+      "packages": [
+        {
+          "package_name": "com.google.android.googlequicksearchbox",
+          "app_name": "Google App / Assistant",
+          "description": "Tìm kiếm và trợ lý Google",
+          "safe_to_remove": true,
+          "risk_level": "LOW",
+          "battery_impact": "HIGH",
+          "ram_impact": "HIGH",
+          "reversible": true,
+          "notes": "Nên gỡ"
+        },
+        {
+          "package_name": "com.google.android.gm",
+          "app_name": "Gmail",
+          "description": "Ứng dụng email",
+          "safe_to_remove": true,
+          "risk_level": "LOW",
+          "battery_impact": "MEDIUM",
+          "ram_impact": "MEDIUM",
+          "reversible": true,
+          "notes": "Không cần nếu không dùng"
+        },
+        {
+          "package_name": "com.google.android.apps.maps",
+          "app_name": "Google Maps",
+          "description": "Bản đồ và định vị",
+          "safe_to_remove": true,
+          "risk_level": "LOW",
+          "battery_impact": "HIGH",
+          "ram_impact": "HIGH",
+          "reversible": true,
+          "notes": "Hao pin GPS"
+        }
+      ]
+    },
+    {
+      "group": "miui_core",
+      "vendor": "Xiaomi",
+      "packages": [
+        {
+          "package_name": "com.miui.home",
+          "app_name": "MIUI Launcher",
+          "description": "Launcher mặc định",
+          "safe_to_remove": false,
+          "risk_level": "HIGH",
+          "battery_impact": "MEDIUM",
+          "ram_impact": "MEDIUM",
+          "reversible": false,
+          "notes": "Không được gỡ"
+        },
+        {
+          "package_name": "com.miui.securitycenter",
+          "app_name": "MIUI Security",
+          "description": "Bảo mật, pin, quyền",
+          "safe_to_remove": false,
+          "risk_level": "HIGH",
+          "battery_impact": "HIGH",
+          "ram_impact": "HIGH",
+          "reversible": false,
+          "notes": "Rất quan trọng"
+        }
+      ]
+    },
+    {
+      "group": "miui_ads",
+      "vendor": "Xiaomi",
+      "packages": [
+        {
+          "package_name": "com.miui.analytics",
+          "app_name": "MIUI Analytics",
+          "description": "Thu thập dữ liệu",
+          "safe_to_remove": true,
+          "risk_level": "LOW",
+          "battery_impact": "MEDIUM",
+          "ram_impact": "MEDIUM",
+          "reversible": true,
+          "notes": "Nên gỡ"
+        },
+        {
+          "package_name": "com.miui.msa.global",
+          "app_name": "MIUI Ads",
+          "description": "Hệ thống quảng cáo",
+          "safe_to_remove": true,
+          "risk_level": "LOW",
+          "battery_impact": "MEDIUM",
+          "ram_impact": "MEDIUM",
+          "reversible": true,
+          "notes": "Nguồn quảng cáo"
+        },
+        {
+          "package_name": "com.xiaomi.mipicks",
+          "app_name": "GetApps",
+          "description": "Cửa hàng Xiaomi",
+          "safe_to_remove": true,
+          "risk_level": "LOW",
+          "battery_impact": "MEDIUM",
+          "ram_impact": "MEDIUM",
+          "reversible": true,
+          "notes": "Không cần nếu dùng Play Store"
+        }
+      ]
+    },
+    {
+      "group": "third_party",
+      "vendor": "Meta / Netflix",
+      "packages": [
+        {
+          "package_name": "com.facebook.katana",
+          "app_name": "Facebook",
+          "description": "Mạng xã hội Facebook",
+          "safe_to_remove": true,
+          "risk_level": "LOW",
+          "battery_impact": "HIGH",
+          "ram_impact": "HIGH",
+          "reversible": true,
+          "notes": "Chạy nền mạnh"
+        },
+        {
+          "package_name": "com.netflix.mediaclient",
+          "app_name": "Netflix",
+          "description": "Ứng dụng xem phim",
+          "safe_to_remove": true,
+          "risk_level": "LOW",
+          "battery_impact": "MEDIUM",
+          "ram_impact": "MEDIUM",
+          "reversible": true,
+          "notes": "An toàn để gỡ"
+        }
+      ]
+    }
+  ]
+}

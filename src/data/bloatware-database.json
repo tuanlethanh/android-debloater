@@ -1,0 +1,176 @@
+{
+  "xiaomi": {
+    "com.miui.analytics": {
+      "name": "MIUI Analytics",
+      "category": "Tracking",
+      "description": "Collects usage data and analytics",
+      "safety": "safe",
+      "recommendation": "Safe to remove"
+    },
+    "com.miui.msa.global": {
+      "name": "MSA Global",
+      "category": "Advertising",
+      "description": "MIUI System Ads provider",
+      "safety": "safe",
+      "recommendation": "Safe to remove, reduces ads"
+    },
+    "com.xiaomi.mipicks": {
+      "name": "GetApps",
+      "category": "Store",
+      "description": "Xiaomi app store",
+      "safety": "safe",
+      "recommendation": "Safe to remove if using Google Play"
+    },
+    "com.miui.cloudservice": {
+      "name": "Mi Cloud",
+      "category": "Cloud",
+      "description": "Xiaomi cloud service",
+      "safety": "caution",
+      "recommendation": "Keep if using Mi Cloud backup"
+    },
+    "com.xiaomi.midrop": {
+      "name": "Mi Drop",
+      "category": "Utility",
+      "description": "File sharing service",
+      "safety": "safe",
+      "recommendation": "Safe to remove"
+    },
+    "com.miui.notes": {
+      "name": "Notes",
+      "category": "Productivity",
+      "description": "MIUI Notes app",
+      "safety": "safe",
+      "recommendation": "Safe to remove"
+    },
+    "com.miui.weather2": {
+      "name": "Weather",
+      "category": "Utility",
+      "description": "MIUI Weather app",
+      "safety": "safe",
+      "recommendation": "Safe to remove"
+    },
+    "com.miui.cleanmaster": {
+      "name": "Cleaner",
+      "category": "Utility",
+      "description": "Storage cleaner",
+      "safety": "safe",
+      "recommendation": "Safe to remove"
+    },
+    "com.xiaomi.scanner": {
+      "name": "Scanner",
+      "category": "Utility",
+      "description": "QR/Barcode scanner",
+      "safety": "safe",
+      "recommendation": "Safe to remove"
+    },
+    "com.miui.videoplayer": {
+      "name": "Video Player",
+      "category": "Media",
+      "description": "MIUI video player",
+      "safety": "safe",
+      "recommendation": "Safe to remove"
+    },
+    "com.miui.player": {
+      "name": "Music",
+      "category": "Media",
+      "description": "MIUI music player",
+      "safety": "safe",
+      "recommendation": "Safe to remove"
+    },
+    "com.android.browser": {
+      "name": "MIUI Browser",
+      "category": "Browser",
+      "description": "Default browser",
+      "safety": "caution",
+      "recommendation": "Keep if no other browser installed"
+    },
+    "com.miui.yellowpage": {
+      "name": "Yellow Page",
+      "category": "Utility",
+      "description": "Phone directory service",
+      "safety": "safe",
+      "recommendation": "Safe to remove"
+    },
+    "com.xiaomi.payment": {
+      "name": "Mi Pay",
+      "category": "Finance",
+      "description": "Payment service",
+      "safety": "safe",
+      "recommendation": "Safe to remove if not using"
+    }
+  },
+  "generic": {
+    "com.facebook.katana": {
+      "name": "Facebook",
+      "category": "Social",
+      "description": "Facebook app",
+      "safety": "safe",
+      "recommendation": "Bloatware on some devices"
+    },
+    "com.facebook.system": {
+      "name": "Facebook Services",
+      "category": "Social",
+      "description": "Facebook background services",
+      "safety": "safe",
+      "recommendation": "Safe to remove"
+    },
+    "com.facebook.appmanager": {
+      "name": "Facebook App Manager",
+      "category": "Social",
+      "description": "Facebook app installer",
+      "safety": "safe",
+      "recommendation": "Safe to remove"
+    },
+    "com.netflix.mediaclient": {
+      "name": "Netflix",
+      "category": "Media",
+      "description": "Netflix app",
+      "safety": "safe",
+      "recommendation": "Preinstalled on some devices"
+    },
+    "com.google.android.apps.docs": {
+      "name": "Google Drive",
+      "category": "Cloud",
+      "description": "Google Drive cloud storage",
+      "safety": "caution",
+      "recommendation": "Keep if using Google services"
+    },
+    "com.google.android.youtube": {
+      "name": "YouTube",
+      "category": "Media",
+      "description": "YouTube app",
+      "safety": "caution",
+      "recommendation": "Keep if frequently used"
+    }
+  },
+  "unsafe": {
+    "com.android.vending": {
+      "name": "Google Play Store",
+      "category": "System",
+      "description": "Main app store",
+      "safety": "unsafe",
+      "recommendation": "DO NOT REMOVE - System critical"
+    },
+    "com.google.android.gms": {
+      "name": "Google Play Services",
+      "category": "System",
+      "description": "Core Google services",
+      "safety": "unsafe",
+      "recommendation": "DO NOT REMOVE - System critical"
+    },
+    "com.android.systemui": {
+      "name": "System UI",
+      "category": "System",
+      "description": "Android user interface",
+      "safety": "unsafe",
+      "recommendation": "DO NOT REMOVE - System critical"
+    },
+    "com.miui.securitycenter": {
+      "name": "Security",
+      "category": "System",
+      "description": "MIUI security center",
+      "safety": "unsafe",
+      "recommendation": "DO NOT REMOVE - Required for permissions"
+    }
+  }
+}
